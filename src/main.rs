@@ -1,3 +1,8 @@
+mod status;
+
+use status::JobStatus;
+
 fn main() {
-    println!("Hello, world!");
+    let s = JobStatus::Pending;
+    println!("Status: {s}");
 }
